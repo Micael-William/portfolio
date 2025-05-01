@@ -1,0 +1,209 @@
+@import url("./variaveis.css");
+.principal {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 170px;
+    grid-area: main;
+    
+}
+
+.principal > p {
+    color: var(--cor-red);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6px;
+    word-spacing: 4px;
+}
+
+.principal > h3 {
+    color: var(--base-gray-600);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.secao-projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 35px;
+    margin: 100px;
+    padding: 0;
+}
+
+.projeto {
+    background-color: var(--base-gray-300);
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.projeto:nth-child(1) {
+    color: var(--base-gray-500);
+}
+.secao-projetos  .projeto:hover {
+    border: 1px solid var(--base-gray-500);
+}
+
+
+.projeto > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projeto > .titulo-projeto {
+    margin-top: 15px;
+    color: var(--base-gray-600);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.projeto > .legenda-projeto {
+    margin-top: 15px;
+    color: var(--base-gray-500);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/* SERVIÇOS */
+.secao-servicos {
+    /* margin-top: 180px; */
+    width: 100vw;
+    height: 70vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--base-gray-100);
+}
+
+.secao-servicos > .titulo-servicos {
+    color: var(--cor-red);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: var(--base-gray-600);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.lista-servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    column-gap: 27px;
+    row-gap: 20px;
+}
+
+.lista-servicos li {
+    border-radius: 7px;
+    border: 1px solid var(--base-gray-300);
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.lista-servicos li > .titulo-projeto {
+    color: var(--base-gray-600);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.lista-servicos li > .legenda-servicos {
+    color: var(--base-gray-500);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+.lista-servicos li > .dev {
+    margin-top: 40px;
+}
+
+
+/* FINAL SERVIÇOS */
+
+/* RODAPE */
+.rodape-contato {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 140px;
+    grid-area: footer;
+    top: 560px;
+    --imagem-fundo: url("../img/Background_Contacts.png");
+    background-image: var(--imagem-fundo);
+    background-repeat: var(--imagem-repeat);
+    background-size: var(--imagem-size);
+    background-position: var(--imagem-position);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-contato > .contato {
+    color: var(--cor-roxo);
+    font-size: 19px;
+}
+
+.rodape-contato > span {
+    color: var(--base-gray-500);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* width: 20vw; */
+    min-width: 30%;
+    /* border: 1px solid; */
+}
+
+.redes-sociais > li {
+    list-style-type: none;
+    padding: 18px;
+    border-radius: 7px;
+    background-color: var( --base-gray-300);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais li > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--base-gray-500);
+    margin: 0 15px;
+    width: 100%;
+}
+.redes-sociais li:hover {
+    border: 1px solid var(--cor-azul);
+} 
+
+.redes-sociais li a  {
+   display: flex;
+   justify-content: space-between;
+}
+
+.redes-sociais li > .logo-rede-sociais {
+    border: none;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+
+li >.logo-rede-sociais:hover {
+    color: var(--cor-azul);
+}
+/* FINAL RODAPE */

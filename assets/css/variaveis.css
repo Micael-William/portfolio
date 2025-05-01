@@ -1,0 +1,17 @@
+:root {
+    --imagem-fundo: url("../img/Background_Intro.png");
+    --imagem-repeat: no-repeat;
+    --imagem-size: cover;
+    --imagem-position: center;
+    --cor-red: #E3646E;
+    --cor-roxo: #BB72E9;
+    --cor-azul: #3996DB;
+    --cor-verde: #82BC4F;
+    --cor-amarelo: #EABD5F;
+    --base-gray-100: #0D0E11;
+    --base-gray-200: #16181D;
+    --base-gray-300: #292C34;
+    --base-gray-400: #878EA1;
+    --base-gray-500: #C0C4CE;
+    --base-gray-600: #E2E4E9;
+}
