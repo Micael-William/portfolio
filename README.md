@@ -1,6 +1,7 @@
 # Portfolio
 
-![Preview do Portfólio](assets\img\print.png)
+![print](https://github.com/user-attachments/assets/5514c32e-3a74-4a9a-9ddd-f5a3234299bd)
+
 
 Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e experiências. Ele foi desenvolvido para demonstrar meu trabalho e facilitar o contato com potenciais empregadores ou clientes.
 
